@@ -1,0 +1,24 @@
+# BAO CÁO VM vs DOCKER
+
+## Giới thiệu
+Trong báo cáo này, chúng tôi sẽ phân tích hiệu suất của việc cách ly giữa máy ảo (VM) và container Docker. Chúng tôi sẽ xem xét những điểm mạnh và yếu của cả hai giải pháp này trong việc triển khai ứng dụng.
+
+## Cơ sở lý thuyết
+### Máy Ảo
+Máy ảo là một phần mềm mô phỏng một hệ thống máy tính, cho phép chạy nhiều hệ điều hành trên cùng một ph���n cứng vật lý.
+
+### Container Docker
+Docker container là một giải pháp nhẹ hơn so với máy ảo, cho phép chạy ứng dụng trong một môi trường tách biệt mà không cần hệ điều hành đầy đủ.
+
+## Thiết kế và Triển khai
+Chúng tôi đã tiến hành thiết kế một môi trường thử nghiệm để so sánh hiệu suất của VM và Docker. Mỗi giải pháp đã được triển khai với các thông số kỹ thuật phần cứng tương tự để đảm bảo tính công bằng trong việc đo lường.
+
+## Kết quả và Thử nghiệm
+Sau khi thực hiện các thử nghiệm, chúng tôi đã thu được các số liệu về hiệu suất như thời gian khởi động, băng thông và mức tiêu thụ tài nguyên của cả VM và Docker.
+
+## Kết luận
+Báo cáo đã chỉ ra rằng Docker cung cấp hiệu suất tốt hơn về thời gian khởi động và mức tiêu thụ tài nguyên so với máy ảo truyền thống.
+
+## Tài liệu tham khảo
+- [Tài liệu về máy ảo]
+- [Tài liệu về Docker]
